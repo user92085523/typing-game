@@ -4,8 +4,8 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/typing-game/docs/",
+  base: "/typing-game/dist/",
   build: {
-    outDir: "docs",
+    outDir: "dist",
   },
 });
