@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/typing-game/",
   build: {
-    outDir: "dist",
+    outDir: "docs",
   },
 });
